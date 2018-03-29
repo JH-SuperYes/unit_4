@@ -2,32 +2,53 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300|Spectral:600,600i);
 
 
-body {
+body {	
 
-	background-color: #000000;
-	color: #ffffff;
-	margin: 100px 75px 75px 100px;
+	background-color: #000;	
+	color: #fff;
+}
+
+.shite {
+
+	background-image: url(img/dreamy_hand-1200-optimized.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 	
 }
-	
+
 
 .intro {
+	
 	font-family: 'Libre Franklin', sans-serif;
-	font-weight: lighter;
-	letter-spacing: 1.0;
+	font-weight: 300;
+
+	letter-spacing: .04em;
 	font-size: 1.6em;
-	line-height: 1.8;	
+	line-height: 1.8;
+	padding-top: 10%;
+	padding-left: 10%;
+		
 	
 }
 .AuthRef {
+
 	font-size: 1.4em;
 	font-family: 'Spectral', serif;
-	text-align: left;
+	font-weight: 300;
+	letter-spacing: .02em;
+	text-align: left;    
 	line-height: 1.6;
+	padding-left: 10%;
 }
-h6 {font-size: 0.7em;
+/*h6 {font-size: 0.7em;
 	font-family: , serif;
 	padding: 30%;
+
+	}
+<img src="img/dreamy_hand-1200-optimized.jpg">
+.shite {
 }
 
 
